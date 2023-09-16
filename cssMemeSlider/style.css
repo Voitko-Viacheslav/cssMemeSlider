@@ -54,7 +54,6 @@ body {
     box-sizing: border-box;
 }
 
-
 input {
     display: none;
 }
@@ -64,9 +63,22 @@ input {
     justify-content: space-between;
     width: 75vw;
     height: 25%;
-
 }
 
+.caption-container {
+    width: 50%;
+    height: 2.3em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    transition: all 0.5s;
+}
 
 .slider-nav {
     width: 50%;
