@@ -53,3 +53,43 @@ body {
     border: 1em solid black;
     box-sizing: border-box;
 }
+
+
+input {
+    display: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    height: 25%;
+
+}
+
+
+.slider-nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1vw;
+}
+
+.biggest {
+    display: flex;
+    justify-content: center;
+    width: 3em;
+    height: 0.6em;
+} 
+
+.slider-nav-item {
+    width: 1.5em;
+    height: 0.2em;
+    border: 0.3rem solid gray;
+    cursor: pointer;
+}
+
+.slider-nav-item:hover {
+    background-color: gray;
+}
