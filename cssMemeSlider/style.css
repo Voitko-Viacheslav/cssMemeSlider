@@ -147,3 +147,36 @@ input {
 #slider_5:checked~.bottom .caption-container .caption {
     transform: translateY(-400%);
 }
+
+@media (max-width: 700px) { 
+    .bottom {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+    .slider-nav {
+        width: 100%;
+       justify-content: center;
+    }
+    .caption-container {
+        height: 1.5em;
+    }
+    .caption {
+        font-size: 1.3em;
+    }
+ }
+
+ @media (max-width: 500px) { 
+    .biggest {
+        width: 1.5em;
+        height: 0.4em;
+    }
+    .slider-nav-item {
+        width: 1em;
+    }
+    .caption-container {
+        height: 1em;
+    }
+    .caption {
+        font-size: 0.7em;
+    }
+ }
