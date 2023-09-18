@@ -214,3 +214,8 @@ input {
         font-size: 0.8em;
     }
 }
+
+a {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
